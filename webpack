@@ -1,0 +1,39 @@
+Webpack concepts
+
+-----------------------
+
+1. Babel support
+Babel is a popular transpiler which is there to help us with transpiling ES6 features down to ES5. We will need the following packages to enable babel working with webpack:
+
+@babel/core
+@babel/plugin-syntax-dynamic-import
+@babel/preset-env
+babel-core
+babel-loader
+babel-preset-env
+
+-----------------------
+
+2. SASS & CSS Support
+
+For setting up SASS and CSS you need the following packages:
+
+sass-loader
+css-loader
+style-loader
+MiniCssExtractPlugin
+
+------------------------
+
+3. Custom Development & Production Setup
+
+Here are the packages that will get used:
+
+clean-webpack-plugin: For cleanup of the dist folder contents.
+compression-webpack-plugin: For gzipping the dist folder file contents.
+copy-webpack-plugin: For copying static assets, files or resources from application source to dist folder.
+html-webpack-plugin: For creating an index.html file in the dist folder.
+webpack-md5-hash: For hashing application source files in the dist folder.
+webpack-dev-server: For running a local development server.
+
+
